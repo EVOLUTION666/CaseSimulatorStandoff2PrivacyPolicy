@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Политика конфиденциальности - Case Simulator for Standoff 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #1a1a2e;
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .app-name {
+            color: #e94560;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h2 {
+            color: #1a1a2e;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 4px solid #e94560;
+        }
+        h3 {
+            color: #333;
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        ul {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        .highlight {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #28a745;
+        }
+        .highlight.warning {
+            border-left-color: #ffc107;
+        }
+        .contact-info {
+            background: #e94560;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contact-info a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .language-switcher {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .language-switcher a {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 0 5px;
+            background: #e94560;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        .language-switcher a:hover {
+            background: #d63050;
+        }
+        .language-switcher a.active {
+            background: #1a1a2e;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background: #f8f9fa;
+            color: #1a1a2e;
+            font-weight: 600;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .badge-green {
+            background: #d4edda;
+            color: #155724;
+        }
+        .badge-yellow {
+            background: #fff3cd;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="language-switcher">
+                <a href="privacy-policy.html" class="active">Русский</a>
+                <a href="privacy-policy-en.html">English</a>
+            </div>
+
+            <h1>Политика конфиденциальности</h1>
+            <p class="app-name">Case Simulator for Standoff 2</p>
+            <p class="last-updated">Последнее обновление: 18 декабря 2025 г.</p>
+
+            <h2>1. Введение</h2>
+            <p>Добро пожаловать в Case Simulator for Standoff 2 (далее — «Приложение», «Игра», «мы», «нас»). Мы уважаем вашу конфиденциальность и стремимся защитить ваши персональные данные.</p>
+            <p>Данная Политика конфиденциальности объясняет, какие данные мы собираем, как их используем и какие у вас есть права в отношении ваших данных.</p>
+
+            <div class="highlight">
+                <strong>Важно:</strong> Наше приложение — это автономный симулятор без серверной части. Все игровые данные хранятся локально на вашем устройстве и не передаются на наши серверы.
+            </div>
+
+            <h2>2. Какие данные мы собираем</h2>
+
+            <h3>2.1. Данные, хранящиеся локально на устройстве</h3>
+            <p>Следующие данные сохраняются только на вашем устройстве и не передаются нам:</p>
+            <ul>
+                <li><strong>Профиль игрока:</strong> никнейм, аватар, уровень, игровой опыт</li>
+                <li><strong>Игровая валюта:</strong> баланс золота</li>
+                <li><strong>Инвентарь:</strong> полученные предметы, кейсы, скины</li>
+                <li><strong>Статистика:</strong> количество открытых кейсов, выигрышей в мини-играх</li>
+                <li><strong>Достижения:</strong> прогресс выполнения достижений</li>
+                <li><strong>Настройки:</strong> звук, музыка, вибрация, язык</li>
+            </ul>
+
+            <h3>2.2. Данные, собираемые автоматически</h3>
+            <p>При использовании приложения автоматически собираются следующие данные через сторонние сервисы:</p>
+
+            <table>
+                <tr>
+                    <th>Тип данных</th>
+                    <th>Цель</th>
+                    <th>Сервис</th>
+                </tr>
+                <tr>
+                    <td>Идентификатор устройства</td>
+                    <td>Аналитика и реклама</td>
+                    <td>Yandex AppMetrica</td>
+                </tr>
+                <tr>
+                    <td>Информация об устройстве (модель, ОС)</td>
+                    <td>Оптимизация приложения</td>
+                    <td>Yandex AppMetrica</td>
+                </tr>
+                <tr>
+                    <td>События в приложении</td>
+                    <td>Улучшение пользовательского опыта</td>
+                    <td>Yandex AppMetrica</td>
+                </tr>
+                <tr>
+                    <td>Рекламный идентификатор (IDFA)</td>
+                    <td>Показ релевантной рекламы</td>
+                    <td>Yandex Mobile Ads</td>
+                </tr>
+                <tr>
+                    <td>Данные об установке (SKAdNetwork)</td>
+                    <td>Атрибуция установок</td>
+                    <td>Рекламные сети</td>
+                </tr>
+            </table>
+
+            <h2>3. Как мы используем данные</h2>
+            <ul>
+                <li><strong>Локальные данные:</strong> используются исключительно для работы игры на вашем устройстве</li>
+                <li><strong>Аналитика:</strong> помогает нам понять, как пользователи взаимодействуют с приложением, и улучшать его</li>
+                <li><strong>Реклама:</strong> позволяет показывать рекламу и поддерживать бесплатность приложения</li>
+            </ul>
+
+            <h2>4. Реклама и App Tracking Transparency</h2>
+            <p>Наше приложение содержит рекламу от Yandex Mobile Ads. В соответствии с требованиями Apple, мы запрашиваем ваше разрешение на отслеживание через App Tracking Transparency (ATT).</p>
+
+            <div class="highlight warning">
+                <strong>Ваш выбор:</strong> Вы можете отказать в отслеживании при появлении запроса. Это не повлияет на работу приложения, но реклама может быть менее релевантной вашим интересам.
+            </div>
+
+            <p>Вы можете изменить свой выбор в любое время:</p>
+            <p><em>Настройки → Конфиденциальность и безопасность → Отслеживание → Case Simulator</em></p>
+
+            <h2>5. Сторонние сервисы</h2>
+            <p>Мы используем следующие сторонние сервисы:</p>
+            <ul>
+                <li><strong>Yandex Mobile Ads</strong> — показ рекламы (<a href="https://yandex.ru/legal/mobileads_sdk_agreement/" target="_blank">Политика конфиденциальности</a>)</li>
+                <li><strong>Yandex AppMetrica</strong> — аналитика (<a href="https://yandex.ru/legal/appmetrica_termsofuse/" target="_blank">Условия использования</a>)</li>
+            </ul>
+
+            <h2>6. Безопасность данных</h2>
+            <table>
+                <tr>
+                    <th>Аспект</th>
+                    <th>Статус</th>
+                </tr>
+                <tr>
+                    <td>Передача данных на наши серверы</td>
+                    <td><span class="badge badge-green">Нет</span></td>
+                </tr>
+                <tr>
+                    <td>Хранение на внешних серверах</td>
+                    <td><span class="badge badge-green">Нет</span></td>
+                </tr>
+                <tr>
+                    <td>Регистрация / Учетные записи</td>
+                    <td><span class="badge badge-green">Не требуется</span></td>
+                </tr>
+                <tr>
+                    <td>Встроенные покупки</td>
+                    <td><span class="badge badge-green">Отсутствуют</span></td>
+                </tr>
+                <tr>
+                    <td>Сбор данных третьими сторонами</td>
+                    <td><span class="badge badge-yellow">Yandex (аналитика, реклама)</span></td>
+                </tr>
+            </table>
+
+            <h2>7. Ваши права</h2>
+            <p>Вы имеете право:</p>
+            <ul>
+                <li><strong>Удалить все данные:</strong> используйте функцию «Сбросить прогресс» в настройках приложения</li>
+                <li><strong>Отказаться от отслеживания:</strong> отклоните запрос ATT или измените настройки в iOS</li>
+                <li><strong>Удалить приложение:</strong> при удалении все локальные данные будут стерты</li>
+            </ul>
+
+            <h2>8. Дети</h2>
+            <p>Наше приложение не предназначено для детей младше 13 лет. Мы сознательно не собираем персональные данные детей. Если вы считаете, что ребенок предоставил нам персональные данные, свяжитесь с нами.</p>
+
+            <h2>9. Изменения в политике</h2>
+            <p>Мы можем обновлять данную Политику конфиденциальности. При существенных изменениях мы уведомим вас через обновление приложения. Рекомендуем периодически проверять эту страницу.</p>
+
+            <h2>10. Контакты</h2>
+            <p>Если у вас есть вопросы о данной Политике конфиденциальности или о том, как мы обрабатываем ваши данные, свяжитесь с нами:</p>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:nefedov.dev@gmail.com">nefedov.dev@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
